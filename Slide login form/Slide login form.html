@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Authentication</title>
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap">
+	<script src="./script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+		<!-- signup page -->
+
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input id="signup_email" type="email" name="email" placeholder="Email" required>
+					<input id="confirm_email" type="email" name="email" placeholder="Confrim Email" required>
+					<input id="signup_password" type="password" name="pswd" placeholder="Password" minlength="4" maxlength="8" required>
+					<input id="confirm_password" type="password" name="pswd" placeholder="Confirm Password" minlength="4" maxlength="8" required>
+					<button type="submit">Sign up</button>
+				</form>
+			</div>
+
+			<!-- login page -->
+
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true">Login</label>
+					<input id="login_email" type="email" name="email" placeholder="Email" required>
+					<input id="login_password" type="password" name="pswd" placeholder="Password" minlength="4" maxlength="8" required>
+					<button type="submit">Login</button>
+				</form>
+			</div>
+	</div>
+</body>
+</html>
