@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; */
+    background-color: #B931FC;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#profile-container {
+    margin-top: 20px;
+}
+
+#profile-link {
+    display: none;
+    color: #007BFF;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#fetch-button{
+    border-radius: 9px;
+    background-color: black;
+    color: #fff;
+}
+
+#fetch-button:hover{
+    background-color: #B931FC;
+}
+
+#username{
+    width: auto;
+    border-width: 2px;
+    border-color: #B931FC;
+}
+
+#username:hover{
+    border-color: black;
+}
